@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'helvetica punk';
+    src: url('fonts/Helvetica Punk.ttf');
+}
+
+body{
+    background: linear-gradient(to right, #ffae3b, #bb4fff);
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(95, 185, 141);
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'helvetica punk'; 
+}
+
+#snake{
+    display: flex; 
+    margin: auto; 
+    size: 500px; 
+}
